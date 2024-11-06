@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Customer {
 
@@ -24,7 +24,10 @@ public class Customer {
             customer[i]
         }
 
+        ArrayList<String> customerprofile = new ArrayList<>();
 
+        customerprofile.add("customer new to list");
+        customerprofile.add("");
 
     }
 }
